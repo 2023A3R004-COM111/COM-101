@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int a,n,sum;
+    int b,c,sum;
     sum=0;
 
     printf("enter the number: ");
-    scanf("%d",&n);
+    scanf("%d",&c);
 
     while(n>0)
     {
-        a=n%10;
-        sum=sum+a;
-        n=n/10;
+        b=c%10;
+        sum=sum+b;
+        c=c/10;
     }
     printf("sum is %d",sum);
 
