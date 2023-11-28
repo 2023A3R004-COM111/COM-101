@@ -2,7 +2,7 @@
 int main()
 {
     int num1, num2;
-    float a,b,c,d,e;
+    float r,s,t,u,v;
 
     printf("enter the first integer: ");
     scanf("%d", &num1);
@@ -10,20 +10,20 @@ int main()
     printf("enter the second integer: ");
     scanf("%d", &num2);
 
-    a= num1+num2;
-    printf("sum: %f\n", a);
+    r= num1+num2;
+    printf("sum: %f\n", r);
 
-    b= num1-num2;
-    printf("difference: %f\n", b);
+    s= num1-num2;
+    printf("difference: %f\n", s);
 
-    c= num1*num2;
-    printf("product: %f\n", c);
+    t= num1*num2;
+    printf("product: %f\n", t);
 
-    d= num1/num2;
-    printf("remainder: %f\n", d);
+    u= num1/num2;
+    printf("remainder: %f\n", u);
 
-    e= num1%num2;
-    printf("modulus: %f\n", e);
+    v= num1%num2;
+    printf("modulus: %f\n", v);
 
     return 0;
 }
